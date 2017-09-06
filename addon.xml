@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.E_Michael_Jones"
+version="0.0.1"
+name="E Michael Jones"
+provider-name="AR_code">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">E Michael Jones</summary>
+  <description lang="en">Kodi plugin for E Michael Jones videos</description>
+  <disclaimer lang="en">Kodi plugin for E Michael Jones videos</disclaimer>
+  <assets>
+    <icon>e_michael_jones.jpeg</icon>
+ </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
